@@ -90,5 +90,5 @@ feed:
 deploy:
   type: git
   repo: git@github.com:firejox/firejox.github.io.git
-  branch: gh-pages
+  branch: master
 
