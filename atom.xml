@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Firejox&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://firejox.github.io/"/>
+  <updated>2019-06-02T09:02:28.314Z</updated>
+  <id>http://firejox.github.io/</id>
+  
+  <author>
+    <name>firejox</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>當兵前來架Blog~</title>
+    <link href="http://firejox.github.io/2017/10/29/%E7%95%B6%E5%85%B5%E5%89%8D%E4%BE%86%E6%9E%B6Blog/"/>
+    <id>http://firejox.github.io/2017/10/29/當兵前來架Blog/</id>
+    <published>2017-10-29T08:55:46.000Z</published>
+    <updated>2019-06-02T09:02:28.314Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="總覺在Plurk上發研究文，總是不容易記住阿"><a href="#總覺在Plurk上發研究文，總是不容易記住阿" class="headerlink" title="總覺在Plurk上發研究文，總是不容易記住阿"></a>總覺在Plurk上發研究文，總是不容易記住阿</h1><p>最近有在Plurk上發奇怪的研究文的習慣，所以想想來弄一個Blog好了。<br>所以就拿<a href="http://morris821028.github.io" target="_blank" rel="noopener">Morris學長的Blog</a>來看怎麼弄的。</p><h2 id="安裝時遇到權限問題"><a href="#安裝時遇到權限問題" class="headerlink" title="安裝時遇到權限問題"></a>安裝時遇到權限問題</h2><p>原本是照著教學下<code>npm install hexo-cli -g</code>的，結果有比較麻煩權限問題，<br>之後在<a href="https://github.com/hexojs/hexo/issues/2505" target="_blank" rel="noopener">這邊</a>找到解法，去<br>Archlinux找aur來裝。</p><h1 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h1><p>總之就弄起來了，雖然還有配色之類的需要調整，不過就先這樣吧。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;總覺在Plurk上發研究文，總是不容易記住阿&quot;&gt;&lt;a href=&quot;#總覺在Plurk上發研究文，總是不容易記住阿&quot; class=&quot;headerlink&quot; title=&quot;總覺在Plurk上發研究文，總是不容易記住阿&quot;&gt;&lt;/a&gt;總覺在Plurk上發研究文，總是不容易記
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
