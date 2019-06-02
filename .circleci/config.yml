@@ -1,0 +1,51 @@
+version: 2.1
+
+jobs:
+  build:
+    working_directory: ~/blog
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "73:07:c6:49:51:74:18:0c:06:3e:37:17:40:66:76:46"
+
+      - checkout
+
+      - run:
+          name: setup git user email
+          command: git config --global user.email circleci@firejox.github.io
+
+      - run:
+          name: setup git user name
+          command: git config --global user.name circleci
+
+      - run:
+          name: update-npm
+          command: sudo npm install -g npm@latest
+
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+
+      - run:
+          name: install hexo
+          command: sudo npm install -g hexo-cli
+
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: generate web pages and deploy to github
+          command: hexo generate --deploy
+
+workflows:
+  version: 2.1
+  build-deploy:
+    jobs:
+      - build:
+        filters:
+          branches:
+            only: master
+
+
